@@ -1,16 +1,35 @@
-# Markov Decision Processes and Reinforcement Learning
+# Processus décisionnels markoviens et apprentissage par renforcement
 
-Analysis of Markov Decision Processes (MDPs) and Q-learning algorithms applied to deterministic and stochastic maze environments.
+Projet réalisé dans le cadre du TER (Travail d’Étude et de Recherche) du Master 1 de Modélisation Statistique et Stochastique  
+Encadrant : Adrien Richou
 
-Key results:
-- Optimal policy derivation for finite and γ-discounted criteria
-- Q-learning implementation with convergence validation
-- Threshold analysis for stochastic teleporters
+## Sujet
 
-Structure:
-/code - Python implementation
-/figures - Result visualizations
-/report - LaTeX sources and PDF
+Ce projet a pour objectif d'étudier les **processus décisionnels markoviens (MDP)** et leur rôle dans la modélisation des problèmes de décision séquentielle, notamment dans le cadre de l’apprentissage par renforcement.
 
-Requirements:
-Python 3, NumPy, Matplotlib, Gymnasium
+Une première partie est consacrée à la modélisation  des MDP et des politiques optimales. Une deuxième partie met en œuvre des algorithmes de renforcement dans des environnements simples, permettant d’illustrer les liens entre théorie et pratique.
+
+## Contenu
+
+### Partie 1 – Théorie des MDP
+
+- Définition d’un MDP : espace d’états, espace d’actions, transitions, récompenses
+- Politiques déterministes et stochastiques
+- Fonctions de valeur, politiques optimales
+- Algorithmes de programmation dynamique (valeur et politique)
+- Critères de performance (gain total, gain espéré actualisé)
+
+### Partie 2 – Application à l’apprentissage par renforcement
+
+- Présentation de l’environnement Gymnasium
+- Implémentation du **Q-learning**
+- Étude de convergence de la politique optimale
+- Influence du nombre d’épisodes, aléas, hyperparamètres
+- Extension à un environnement modifié avec téléporteur
+
+## Outils
+
+- Python  
+- Jupyter Notebook  
+- Bibliothèques : `gymnasium`, `numpy`, `matplotlib`
+
